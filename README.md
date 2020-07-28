@@ -7,7 +7,9 @@ We distinguish breathing in from breathing out by checking whether the threshold
 We placed a plane into the Unity scene with the circle.png that can be found in assets. We also put an audio object into the scene and connected the Audiopeer script. The Audiopeer talks to the movement script, which is connected to the plane with the circle. 
 
 
+
 This work is inspired by the work of: 
+
 AudioPeer > yt = https://www.youtube.com/watch?v=Ri1uNPNlaVs&t=632s
 
 George Lecakes > yt = ttps://www.youtube.com/watch?v=DrMyhQY2udg
