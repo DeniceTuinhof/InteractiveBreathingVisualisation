@@ -9,13 +9,14 @@ SET-UP
 2. Download the assets and import to your Unity project. 
 3. Place a plane into the Unity scene. 
 4. Connect the circle (circle.png) from assets to the Unity scene. 
-5. Put audio object in the scene. 
+5. Put audio object into the scene. 
 6. Connect the Audiopeer script to the audio object. 
 7. Connect the Movementscript to the plane. 
-* make sure you use an external microphone and you breath into this microphone from a small range (place in front of the mouth) 
-** fine tune the thresholds as these might differ per microphone laptop combination. 
-*** copy paste the png and change the Z-coordinates to have multiple objects moving. 
-**** add a video to the plane to create an dynamic invironment. 
+
+* make sure you use an external microphone and make sure you breath into the microphone from a small range (place in front of the mouth) 
+* fine tune the threshold as these might differ per microphone laptop combination. 
+* copy paste the png and change the Z-coordinates to have multiple objects moving. 
+* add a video to the plane to create an dynamic invironment. 
 
 This work is inspired by the work of: 
 
