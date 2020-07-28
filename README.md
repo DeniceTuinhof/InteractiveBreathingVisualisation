@@ -1,4 +1,4 @@
-# Interactive_breathing_visualisation_tool_microphone
+# Interactive-Breathing-Visualisation-Tool-Microphone
  An interactive breathing visualisation tool that uses a microphone
  
 Within this simulation, raw audio is recorded and streamed into Unity. We used a C# script to transform the amplitude-frequency into eight bands of spectrum data. 
