@@ -4,9 +4,18 @@
 Within this simulation, raw audio is recorded and streamed into Unity. We used a C# script to transform the amplitude-frequency into eight bands of spectrum data. 
 We distinguish breathing in from breathing out by checking whether the threshold for specific frequency bands is reached. When the data is classified as breathing in, the circle shape comes towards you. Once you breathe out, the circle moves away. 
 
-We placed a plane into the Unity scene with the circle.png that can be found in assets. We also put an audio object into the scene and connected the Audiopeer script. The Audiopeer talks to the movement script, which is connected to the plane with the circle. 
-
-
+SET-UP
+1. Install Unity and open a new project. 
+2. Download the assets and import to your Unity project. 
+3. Place a plane into the Unity scene. 
+4. Connect the circle (circle.png) from assets to the Unity scene. 
+5. Put audio object in the scene. 
+6. Connect the Audiopeer script to the audio object. 
+7. Connect the Movementscript to the plane. 
+* make sure you use an external microphone and you breath into this microphone from a small range (place in front of the mouth) 
+** fine tune the thresholds as these might differ per microphone laptop combination. 
+*** copy paste the png and change the Z-coordinates to have multiple objects moving. 
+**** add a video to the plane to create an dynamic invironment. 
 
 This work is inspired by the work of: 
 
